@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 4,
+  "editor.formatOnSave": false, // if you use ESlint，this should be false
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+  "files.autoGuessEncoding": true
+}
