@@ -11,7 +11,7 @@ const service = axiosClient.create({
 
 // request interceptor
 service.interceptors.request.use(
-  (config: AxiosRequestConfig) => {
+  (config) => {
     if (!config.headers) {
       throw new Error("Expected 'config' and 'config.headers' not to be undefined")
     }
